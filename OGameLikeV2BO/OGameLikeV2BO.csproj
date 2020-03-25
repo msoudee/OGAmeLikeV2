@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constante\TypeRessource.cs" />
+    <Compile Include="Constante\ResourceType.cs" />
     <Compile Include="Models\Building.cs" />
+    <Compile Include="Models\ConcretBuildings\OxygenGenerator.cs" />
+    <Compile Include="Models\ConcretBuildings\SteelGenerator.cs" />
+    <Compile Include="Models\ConcretBuildings\UraniumGenerator.cs" />
+    <Compile Include="Models\ConcretBuildings\PowerPlant.cs" />
     <Compile Include="Models\FunctionBuilding.cs" />
     <Compile Include="Models\IDbEntity.cs" />
     <Compile Include="Models\Planet.cs" />
@@ -51,6 +55,7 @@
     <Compile Include="Models\ResourceGenerator.cs" />
     <Compile Include="Models\SolarSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validators\DateTimeValidator.cs" />
     <Compile Include="Validators\PlanetResourceValidator.cs" />
   </ItemGroup>
   <ItemGroup />

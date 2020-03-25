@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OGameLikeV2BO.Models
 {
-    public class ResourceGenerator
+    public class ResourceGenerator : Building
     {
 		private List<Resource> resourceBySecond;
 		public virtual List<Resource> ResourceBySecond

@@ -47,7 +47,7 @@ namespace OGameLikeV2BO.Models
 		}
 
 		[NotMapped]
-		public virtual List<Resource> nextCost
+		public virtual List<Resource> NextCost
 		{
 			get { return null;  }
 		}
