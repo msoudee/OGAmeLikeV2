@@ -1,0 +1,5 @@
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2BO\bin\Debug\OGameLikeV2BO.dll
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2BO\bin\Debug\OGameLikeV2BO.pdb
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2BO\obj\Debug\OGameLikeV2BO.csproj.CoreCompileInputs.cache
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2BO\obj\Debug\OGameLikeV2BO.dll
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2BO\obj\Debug\OGameLikeV2BO.pdb
