@@ -8,17 +8,15 @@ namespace OGameLikeV2BO.Models
 {
     public class ResourceGenerator
     {
-		private List<Resource> resources;
-
-		public virtual List<Resource> Resources
+		private List<Resource> resourceBySecond;
+		public virtual List<Resource> ResourceBySecond
 		{
-			get { return resources; }
-			set { resources = value; }
+			get { return resourceBySecond; }
 		}
 
 		public ResourceGenerator()
 		{
-			this.resources = new List<Resource>();
+			this.resourceBySecond = new List<Resource>();
 		}
 	}
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace OGameLikeV2BO.Models
 			set { id = value; }
 		}
 
+		[StringLength(20, MinimumLength = 5)]
 		public string Name
 		{
 			get { return name; }
@@ -28,6 +30,12 @@ namespace OGameLikeV2BO.Models
 		{
 			get { return planets; }
 			set { planets = value; }
+		}
+
+		public SolarSystem()
+		{
+			this.name = "";
+			this.planets = new List<Planet>();
 		}
 	}
 }
