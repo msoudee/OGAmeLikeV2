@@ -47,7 +47,7 @@ namespace OGameLikeV2.Controllers
         // plus de détails, voir  https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,LastQuantity,LastUpdate")] Resource resource)
+        public ActionResult Create([Bind(Include = "Id,Name,LastQuantity")] Resource resource)
         {
             if (ModelState.IsValid)
             {

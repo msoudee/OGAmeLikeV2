@@ -52,6 +52,9 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -105,9 +108,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -126,6 +126,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BuildingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PlanetsController.cs" />
     <Compile Include="Controllers\ResourcesController.cs" />
@@ -138,7 +140,28 @@
     <Compile Include="Migrations\202003251517060_1.Designer.cs">
       <DependentUpon>202003251517060_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003260928338_partie3.cs" />
+    <Compile Include="Migrations\202003260928338_partie3.Designer.cs">
+      <DependentUpon>202003260928338_partie3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003260953562_partie3-1.cs" />
+    <Compile Include="Migrations\202003260953562_partie3-1.Designer.cs">
+      <DependentUpon>202003260953562_partie3-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003261024043_partie4.cs" />
+    <Compile Include="Migrations\202003261024043_partie4.Designer.cs">
+      <DependentUpon>202003261024043_partie4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003261028522_partie41.cs" />
+    <Compile Include="Migrations\202003261028522_partie41.Designer.cs">
+      <DependentUpon>202003261028522_partie41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003261057361_partie42.cs" />
+    <Compile Include="Migrations\202003261057361_partie42.Designer.cs">
+      <DependentUpon>202003261057361_partie42.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ConfigurationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -192,10 +215,15 @@
     <Content Include="Views\SolarSystems\Details.cshtml" />
     <Content Include="Views\SolarSystems\Edit.cshtml" />
     <Content Include="Views\SolarSystems\Index.cshtml" />
+    <Content Include="Views\Buildings\Create.cshtml" />
+    <Content Include="Views\Buildings\Delete.cshtml" />
+    <Content Include="Views\Buildings\Details.cshtml" />
+    <Content Include="Views\Buildings\Edit.cshtml" />
+    <Content Include="Views\Buildings\Index.cshtml" />
+    <Content Include="Views\Admin\Configure.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -219,6 +247,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003251517060_1.resx">
       <DependentUpon>202003251517060_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260928338_partie3.resx">
+      <DependentUpon>202003260928338_partie3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260953562_partie3-1.resx">
+      <DependentUpon>202003260953562_partie3-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003261024043_partie4.resx">
+      <DependentUpon>202003261024043_partie4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003261028522_partie41.resx">
+      <DependentUpon>202003261028522_partie41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003261057361_partie42.resx">
+      <DependentUpon>202003261057361_partie42.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -92,3 +92,8 @@ C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.dll
 C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.pdb
 C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations._1.resources
 C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.csproj.GenerateResource.cache
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations.partie3.resources
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations.partie31.resources
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations.partie4.resources
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations.partie41.resources
+C:\Users\Maxence\source\repos\OGameLikeV2\OGameLikeV2\obj\Debug\OGameLikeV2.Migrations.partie42.resources

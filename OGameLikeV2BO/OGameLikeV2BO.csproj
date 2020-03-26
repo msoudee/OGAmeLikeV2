@@ -48,6 +48,9 @@
     <Compile Include="Models\ConcretBuildings\SteelGenerator.cs" />
     <Compile Include="Models\ConcretBuildings\UraniumGenerator.cs" />
     <Compile Include="Models\ConcretBuildings\PowerPlant.cs" />
+    <Compile Include="Models\Configuration\ConfigJSON.cs" />
+    <Compile Include="Models\Configuration\PlanetConfig.cs" />
+    <Compile Include="Models\Configuration\SolarSystemConfig.cs" />
     <Compile Include="Models\FunctionBuilding.cs" />
     <Compile Include="Models\IDbEntity.cs" />
     <Compile Include="Models\Planet.cs" />

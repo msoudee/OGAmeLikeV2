@@ -24,5 +24,9 @@ namespace OGameLikeV2.Data
         public System.Data.Entity.DbSet<OGameLikeV2BO.Models.Planet> Planets { get; set; }
 
         public System.Data.Entity.DbSet<OGameLikeV2BO.Models.SolarSystem> SolarSystems { get; set; }
+
+        public System.Data.Entity.DbSet<OGameLikeV2BO.Models.Building> Buildings { get; set; }
+
+        public System.Data.Entity.DbSet<OGameLikeV2BO.Models.Configuration.ConfigJSON> Configuration{ get; set; }
     }
 }
