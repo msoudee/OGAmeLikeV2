@@ -53,7 +53,7 @@ namespace OGameLikeV2BO.Models.ConcretBuildings
             get
             {
                 List<Resource> res = new List<Resource>();
-                res.Add(new Resource { Name = ResourceType.ENERGY.ToString(), LastUpdate = DateTime.Now, LastQuantity = ((20 * (Level / 2)) + 5) });
+                res.Add(new Resource { Name = ResourceType.OXYGEN.ToString(), LastUpdate = DateTime.Now, LastQuantity = ((20 * (Level / 2)) + 5) });
                 return res;
             }
         }

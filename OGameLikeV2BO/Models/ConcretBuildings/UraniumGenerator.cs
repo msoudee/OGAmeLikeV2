@@ -49,7 +49,7 @@ namespace OGameLikeV2BO.Models.ConcretBuildings
             get
             {
                 List<Resource> res = new List<Resource>();
-                res.Add(new Resource { Name = ResourceType.ENERGY.ToString(), LastUpdate = DateTime.Now, LastQuantity = (int)((7 * Math.Pow((double)Level, 3)) + 2) });
+                res.Add(new Resource { Name = ResourceType.URANIUM.ToString(), LastUpdate = DateTime.Now, LastQuantity = (int)((7 * Math.Pow((double)Level, 3)) + 2) });
                 return res;
             }
         }
